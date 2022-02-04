@@ -1,0 +1,401 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+#page
+{
+	margin: 0px auto;
+}
+
+#header {
+	position:fixed;
+	width: 100%;
+}
+#logo img {
+	float:left;
+	height: 5%;
+	width: 5%;
+	margin: 2%;
+	position: relative;
+}
+
+.title
+{
+	position: absolute;
+	text-align:center;
+	margin: 20% 44%;
+	color: white;
+	font-family: Serif;
+}
+
+.title h1
+{
+text-transform: uppercase;
+}
+
+/*#navigation>li>a:before{
+content: "";
+position: absolute;
+width: 100%;
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: #2dc997;
+visibility: hidden;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+-webkit-transition: all 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;
+}
+
+#navigation a:hover:before, #navigation li:hover>a:before{
+	visibility: visible;
+-webkit-transform: scaleX(1);
+transform: scaleX(1);
+}*/
+.photo img 
+{
+	width:100%;
+	height:40%;
+	background-position: center;
+	background-size: cover;
+	margin: 20px;
+	
+}
+
+ul {
+	list-style: none;
+	margin-top: 15px;
+}
+
+
+ul li {
+		display:inline-block;
+		padding:10px;
+		text-transform: uppercase;
+		font-family: Constantia;
+		font-weight: bold;
+		font-size: 16px;
+
+	}
+
+#navigation ul {
+	float: right;
+	position: relative;
+	align-items: center;
+
+}
+#navigation >li{
+	margin-left:20px;
+}
+
+#main{
+	width:100%;
+}
+
+#discography{
+	width: 100%;
+	margin:50px auto;
+	background:rgb(0,0,0);
+}
+
+#discography h2{
+	text-align:center;
+	color:beige;
+	font-weight: bold;
+	margin:2px;
+}
+.cleaner{
+	clear:both;
+}
+a{
+	text-decoration:none;
+	color: white;
+	transition: 0.3s;
+}
+
+#aboutPhoto img{
+	max-width: 35%;
+	margin-left: 40px;
+	margin-top: 20px;
+	/*width: 30%;*/
+	float:left;
+}
+
+#aboutPhotoText{
+	float: right;
+	max-width: 40%;
+	margin-top: 20px;
+}
+#aboutPhotoText p {
+text-align: justify;
+margin-right: 40px;
+}
+
+.albums {
+	display:inline-block;
+	float:left;
+	margin: 10px;
+	position: relative;
+}
+
+.albums img{
+	transition:1s;
+	padding: 15px;
+	width: 350px;
+}
+
+.aboutAlbum{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align:center;
+	color: saddlebrown;
+	background: rgb(255,255,255);
+	opacity:65%;
+	width: 90%;
+	margin:5%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	transition: 0.5s;
+	display:none;
+}
+.aboutAlbum a{
+	color:darkblue;
+}
+
+#about_us {
+	background-color:rgb(21,21,24);
+	width:100%;
+	margin-top:10px;
+}
+
+#about_us p{
+	color:rgb(255,255,255);
+	
+}
+
+#about_us h5{
+	color:rgb(255,255,255);
+	
+}
+
+#about_us i{
+	color:rgb(255,255,255);
+	text-align:left;
+}
+
+.text-left {
+	float: left;
+	width: 50%;
+	padding-right: 15px;
+	padding-left: 40px;
+	margin: 20px;
+	text-align: justify;
+	
+}
+
+.signature img{
+	width: 35%;
+	margin: 50px 0 20px 0;
+	opacity:0.35;
+}
+.profile-photo {
+	max-height: 400px;
+	float: right;
+	padding-right: 15px;
+	margin-top: 20px;
+
+}
+.profile-photo img{
+	width:75%;
+	border-radius:80%;
+}
+
+#slider img{
+	width:100%;
+}
+
+#contact{
+	background-image:url('masterpiece.jpg');
+}
+#forms{
+	padding:60px 40px;
+	background-color:rgb(16,16,18);
+	opacity:0.9;
+	
+}
+	#forms h4 {
+		color:rgb(255,255,255);
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-bottom: 40px;
+		font-family: 'Times New Roman', Times, serif;
+		margin-left: 40px;
+	}
+.text-tabs{
+	
+	margin-bottom:15px;
+}
+.validation{
+	border: 1px solid black;
+	font-size:16px;
+	background:transparent;
+	height:50px;
+	border-radius:0;
+	margin-bottom:20px;
+}
+.validation {
+	color:wheat;
+}
+#send{
+	margin-top:20px;
+	padding:5px;
+	color:wheat;
+	background-color:#ff2b4a;
+	font-size:16px;
+	text-transform:uppercase;
+}
+
+#author{
+	width:100%;
+	z-index:20;
+	left:0;
+	top:0;
+	background-color:rgb(255,255,255);
+	padding: 20px;
+}
+
+#author h2{
+	text-align: center;
+}
+#imageAuthor{
+
+}
+#author #jspic{
+	width:40px;
+	height:30px;
+	
+}
+
+#imageAuthor img{
+	max-width:30%;
+	border-radius: 100%;
+	float:right;
+	padding:20px;
+	margin-right:20px;
+}
+#textAuthor{
+	float: left;
+	margin:30px;
+	padding: 30px;
+	text-align:justify;
+	font-family:'Times New Roman';
+	font-size:16px;
+	width:50%;
+	border:2px solid black;
+}
+#footer {
+	background:rgb(0,0,0);
+	color: white;
+	width: 100%;
+	padding: 25px;
+}
+#links{
+	text-align:center;
+}
+#links ul li{
+	display: inline-block;
+	color: white;
+}
+#copyright{
+	display: block;
+	text-align: center;
+}
+.danger{
+	border:2px solid red;
+}
+.value{
+	visibility:hidden;
+}
+.menuHover {
+	color: black;
+	font-size:20px;
+	text-decoration:underline;
+}
+
+.chart {
+    background: gray;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 10px 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+}
+ .chart span {
+        /* You can modify the value below to change the distance between the percentage number and the bar */
+        margin-left: 7px;
+        color: black;
+        font-weight: bolder;
+    }
+.name{
+	padding:3px;
+}
+.bar {
+    /* You can modify the total time used for the animation here */
+    animation: load 3s normal forwards;
+    /* 
+    Add a little spice by having a shadow below the bar.
+    Feel free to comment out this line below to have an even LITE version :D 
+    */
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: black;
+    height: 30px;
+    width: 0;
+} 
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 60%;
+    }
+}
+
+#scrollUp{
+	position: fixed;
+ display: none;
+ background: rgba(0, 0, 0, 0.2);
+ color: #fff;
+ padding: 7px 13px 8px 13px;
+ font-size: 14px;
+ border-radius: 2px;
+ right: 14px;
+ bottom: 14px;
+ transition: background 0.5s;
+}
+#scrollUp:focus {
+ background: rgba(0, 0, 0, 0.2);
+ color: #fff;
+ outline: none;
+}
+	#scrollUp:hover {
+		background: #2dc997;
+		color: #fff;
+	}
+/*#scrollUp i {
+	color:black;
+	margin:0;
+	position:relative;
+	left: 13px;
+	top:10px;
+}*/
